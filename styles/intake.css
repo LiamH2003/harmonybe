@@ -1,0 +1,107 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intakeContainer {
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90vw;
+}
+
+.intakeContainer h2 {
+    font-family: 'DGO', Arial, sans-serif;
+    color: #FF7F00;
+    margin-bottom: 20px;
+}
+
+.intakeContainer p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.courses, .support {
+    margin-bottom: 20px;
+}
+
+.courses h3, .support h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.courses ul, .support ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.courses li, .support li {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.scheduleButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.scheduleButton:hover {
+    background-color: #FFA95C;
+}
+.intakeForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formField {
+    margin-bottom: 15px;
+}
+
+.formField label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.formField input, .formField select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formField input[type="submit"] {
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formField input[type="submit"]:hover {
+    background-color: #FFA95C;
+}

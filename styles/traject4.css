@@ -1,0 +1,182 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100vw;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contentContainer {
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 90vw;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'DGO', Arial, sans-serif;
+    color: #FF7F00;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+ul {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.trajectButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.trajectButton:hover {
+    background-color: #FFA95C;
+}
+
+/* Nieuwe Container voor de Kalender */
+.calendarContainer {
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 90vw;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Zorg ervoor dat de kalender binnen de container past */
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 kolommen voor een week */
+    gap: 1px;
+    width: 100%; /* Zorg ervoor dat de kalender de breedte van de container gebruikt */
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Kalender Dag Stijlen */
+#calendar .day {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100px; /* Zorgt voor voldoende ruimte voor evenementen */
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+#calendar .day:hover {
+    background-color: #e0e0e0;
+}
+
+/* Event Stijlen */
+#calendar .event {
+    background-color: #FF7F00;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#calendar .event:hover {
+    background-color: #FFA95C;
+}
+
+/* Modal Stijlen */
+.modal {
+    display: none; /* Verberg de modal standaard */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.backButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px; /* Add some space above the button */
+}
+
+.backButton:hover {
+    background-color: #FFA95C;
+}

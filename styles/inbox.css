@@ -1,0 +1,158 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.inboxNav {
+    font-size: 1.9vmin;
+    background-color: #FFEEDB;
+    opacity: 0.8;
+    z-index: 0;
+    width: 15vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.inboxNav div {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 10px;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid lightgrey;
+}
+
+.inboxNav div .favorite {
+    align-self: flex-end;
+    position: absolute;
+    padding: 6px 5px 2px 5px;
+    margin-top: -4px;
+}
+
+.inboxNav div .favorite:hover {
+    background-color: #ffdcb0;
+}
+
+
+.inboxNav div .date {
+    color: rgb(74, 74, 74);
+}
+
+.inboxNav div .sender {
+    margin-top: 10px;
+}
+
+.inboxNav div h4 {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.inboxNav div:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.contentDiv {
+    width: 85vw;
+    background-color: white;
+    height: 90vh;
+}
+
+.filterDiv {
+    width: 100%;
+    background-color: #FFA95C;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filterDiv select {
+    padding: 10px;
+    width: 20vw;
+    margin-left: 10px;
+}
+
+.filterDiv .searchbar {
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    background: url("../images/search_icon.png") center left no-repeat;
+    background-position-x: 10px;
+    background-color: white;
+    padding-left:35px;
+    width: 20vw;
+}
+
+.filterDiv .createMail {
+    background: url("../images/add_icon.png") center center no-repeat;
+    background-color: white;
+    background-size: 70%;
+    margin-left: auto;
+}
+
+.filterDiv .react {
+    background: url("../images/react_icon.png") center center no-repeat;
+    background-color: white;
+    background-size: 70%;
+}
+
+.filterDiv .remove {
+    background: url("../images/remove_icon.png") center center no-repeat;
+    background-color: white;
+    background-size: 70%;
+    margin-right: 10px;
+}
+
+.filterDiv div {
+    height: 26px;
+    width: 26px;
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.2s;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+
+.filterDiv div:hover {
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.mailDiv {
+    height: 83vh;
+    width: 85vw;
+}
+
+.innerMailDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60vw;
+    margin: 1vh 1vw;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9vmin;
+}
+
+.innerMailDiv h4 {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.innerMailDiv h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.innerMailDiv .mailDate {
+    margin-top: 5px;
+}

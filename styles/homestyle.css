@@ -1,0 +1,136 @@
+.introDiv {
+    margin-top: 100px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10vw;
+    margin-right: auto;
+    width: 35vw;
+    font-size: 1.1vw;
+    background-color: #ffffff;
+    padding: 40px;
+    padding-bottom: 50px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.introDiv h1 {
+    margin-top: 10px;
+    font-family: DGO;
+}
+
+.introDiv p {
+  font-size: 1vw;
+}
+
+.introDiv a {
+    background-color: #FF7F00;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.2s;
+    padding: 0.6vw 1.2vw;
+    font-family: DGO;
+    color: black;
+    text-decoration: none;
+}
+
+.introDiv a:hover {
+    background-color: #FFA95C;
+    color: rgb(84, 84, 84);
+}
+
+@-webkit-keyframes background-switch {
+    0% {
+        background-image: url('../images/Sfeerbeeld1.jpg');
+    }
+    30% {
+        background-image: url('../images/Sfeerbeeld1.jpg');
+    }
+    35% {
+        background-image: url('../images/Sfeerbeeld2.jpg');
+    }
+    63% {
+        background-image: url('../images/Sfeerbeeld2.jpg');
+    }
+    66% {
+        background-image: url('../images/Sfeerbeeld3.jpg');
+    }
+    97% {
+        background-image: url('../images/Sfeerbeeld3.jpg');
+    }
+}
+
+  .contentDiv {
+    max-width: 100vw;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFA95C;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contentInnerDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 0.9vw;
+    width: 93vw;
+  }
+
+  .frameDiv {
+    text-decoration: none;
+    color: black;
+    width: 40vw;
+    align-self: center;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    background-color: #FFEEDB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    transition: 0.2s;
+    height: 10vw;
+  }
+
+  .frameDiv1, .frameDiv2 {
+    margin-top: 30px;
+  }
+
+  .imageDiv1 img {
+    width: 90%;
+  }
+
+  .textDiv1 {
+    width: 100vw;
+  }
+
+  .imageDiv2 img {
+    width: 90%;
+  }
+
+  .frameDiv1:hover {
+    background-color: #fff6eb;
+  }
+
+  .footerDiv {
+    height: 50px;
+    background-color: #FFEEDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .footerDiv div {
+    padding: 20px;
+   
+  }
+
+  .footerDiv div a {
+    text-decoration: none;
+    color: black;
+  }

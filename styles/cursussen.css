@@ -1,0 +1,65 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cursusNav {
+    background-color: #FFEEDB;
+    opacity: 0.8;
+    z-index: 0;
+    width: 15vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.cursusNav div {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.cursusNav h2 {
+    font-family: DGO;
+    margin-left: 10px;
+}
+
+.lan {
+    justify-self: flex-end;
+    margin-top: auto;
+    background-image: url("../images/lan.png");
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+.cursusNav div:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.contentDiv {
+    width: 85vw;
+    background-color: white;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.contentDiv h3, p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vmin;
+}
+
+.contentDiv div video {
+    width: 97%;
+    margin: 20px;
+}

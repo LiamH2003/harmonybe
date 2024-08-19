@@ -1,0 +1,80 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.contentDiv1, .contentDiv2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9vw;
+}
+
+.contentDiv1 {
+    background-image: url("../images/sfeerbeeld4.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.contentDiv2 {
+    height: 50vh;
+}
+
+.innerContentDiv1 {
+    background-color: #FFA95C;
+    border-radius: 15px;
+    padding: 10px 30px;
+    width: 50vw;
+    height: 60vh;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.innerContentDiv2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.valueDivs {
+    display: flex;
+    justify-content: center;
+    background-color: #FFEEDB;
+    border-radius: 10px;
+    align-items: flex-end;
+    text-align: center;
+    width: 15vw;
+    height: 30vh;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 20px;
+}
+
+.valueDiv1 {
+    background-image: url("../images/value1.png");
+}
+
+.valueDiv2 {
+    background-image: url("../images/value2.png");
+}
+
+.valueDiv3 {
+    background-image: url("../images/value3.png");
+}
+
+.valueDiv4 {
+    background-image: url("../images/value4.png");
+}

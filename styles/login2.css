@@ -1,0 +1,70 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.loginForm {
+    background-color: #FFEEDB;
+    border-radius: 10px;
+    border: 2px solid #FF7F00;
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-family: DGO;
+}
+
+.loginForm p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+    font-weight: light;
+}
+
+.loginForm h2 {
+    margin-top: 0;
+}
+
+.loginForm label {
+    display: block;
+    margin: 30px 0 5px;
+}
+
+.loginForm input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.loginForm button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF7F00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.loginForm img {
+    margin-left: 5px;
+}
+
+.loginForm span {
+    margin-left: 20px;
+}
+
+.loginForm button:hover {
+    background-color: #FFA95C;
+}

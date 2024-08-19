@@ -1,0 +1,167 @@
+.bodyDiv {
+    background-color: #FFA95C;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.accountNav {
+    background-color: #FFEEDB;
+    opacity: 0.8;
+    z-index: 0;
+    width: 400px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.accountNav div, .accountNav a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: 0.2s;
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+
+.accountNav h2 {
+    font-family: DGO;
+    margin-left: 10px;
+}
+
+.accountNav div:hover, .accountNav a:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.ele1 {
+    background-image: url("../images/account_icon1.png");
+}
+
+.ele2 {
+    background-image: url("../images/account_icon2.png");
+}
+
+.ele3 {
+    background-image: url("../images/account_icon3.png");
+}
+
+.ele4 {
+    background-image: url("../images/account_icon5.png");
+}
+
+.activeLan {
+    background-color: #FFA95C;
+}
+
+.logout {
+    justify-self: flex-start;
+    margin-top: auto;
+    background-image: url("../images/account_icon4.png");
+    color: black;
+    text-decoration: none;
+}
+
+.contentDiv {
+    background-color: white;
+    height: 90vh;
+    flex-grow: 1;
+    overflow-x: scroll;
+}
+
+.contentDiv h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vmin;
+}
+
+.contentTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.accountInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainFields {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.mainField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.mainField label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.mainField span {
+    flex: 1;
+}
+
+.mainField input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.mainField #notifications {
+    position: relative;
+    left: 120px;
+}
+
+.saveButton {
+    padding: 10px 50px 10px 50px;
+    background-color: #FFA95C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.saveButton:hover {
+    background-color: rgb(255, 206, 146);
+}
+
+.languageList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.languageList li {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.languageList li.active {
+    background-color: #e0e0e0; /* Active language background */
+}
+
+.languageList li.active {
+    background-color: #FFA95C; /* Active language background */
+    color: white; /* Optional: change text color for better visibility */
+}
